@@ -1,0 +1,119 @@
+html {
+  background: #23252C;
+  font-family: 'Inter', sans-serif;
+}
+
+.App {
+  text-align: left;
+  background: #1A1B21;
+  width: 320px;
+  margin: 20px auto;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.info {
+  max-width: 320px;
+  margin: auto;
+  font-style: normal;
+  font-weight: bold;
+  text-align: center;
+
+}
+
+.info h1 {
+  color: white;
+  margin: 10px auto auto auto;
+}
+
+.info h4 {
+  color: #F3BF99;
+  font-weight: normal;
+  font-size: 13px;
+  margin: 0px auto 20px auto;
+}
+
+.profile--pic {
+  max-width: 320px;
+  border-radius: 10px 10px 0px 0px;
+
+}
+
+.button--div {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 35px;
+  font-weight: 500;
+}
+
+.button--div button {
+  width: 115px;
+  height: 34px;
+  padding: 9px 13px 9px 11px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #D1D5DB;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.button--div img {
+  max-width: 13px;
+  margin: 3px;
+}
+
+.button--div :nth-child(2) {
+  background: #5093E2;
+  color: white;
+  border: none;
+}
+
+.about, .interests {
+  color: white;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10.24px;
+  line-height: 150%;
+  color: #DCDCDC;
+  padding: 2px 35px;
+}
+
+.about {
+  margin-top: 20px;
+}
+
+.interests {
+  margin-bottom: 30px;
+}
+
+.about h3, .interests h3 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 150%;
+  margin-bottom: 0;
+  color: #F5F5F5;
+}
+
+p {
+  margin: 0;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10.24px;
+}
+
+footer img {
+  max-width: 25px;
+  max-height: 25px;
+  filter: invert(100%);
+  margin: 0 8px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #161619;
+  height: 64px;
+  border-radius: 0px 0px 10px 10px;
+}
