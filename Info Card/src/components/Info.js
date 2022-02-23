@@ -1,6 +1,6 @@
-import pic from "./images/pic.jpg"
-import email from "./images/email.png"
-import linkedin from "./images/linkedin.png"
+import pic from "../images/pic.jpg"
+import email from "../images/email.png"
+import linkedin from "../images/linkedin.png"
 
 export default function Info(){
     return(
