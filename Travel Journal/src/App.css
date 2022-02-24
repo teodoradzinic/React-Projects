@@ -1,0 +1,72 @@
+html{
+  background-color: grey;
+}
+.App{
+  max-width: 70vw;
+  margin: 2vh auto;
+  background: white;
+  padding-bottom: 3vh;
+}
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 7vh;
+  background: #F55A5A;
+  color: white;
+  margin-bottom: 6vh;
+}
+
+nav img {
+  width: 24px;
+  height: 24px;
+  margin-right: 5px;
+  filter: invert(100);
+}
+
+.card {
+  display: flex;
+  margin: 2vh 8%;
+  padding-bottom: 2vh;
+  font-size: 11px;
+  max-height: 30vw;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.171);
+}
+.card img{
+  width: 125px;
+  height: 168px;
+}
+.card .pin {
+  width: 10px;
+  height: 10px;
+}
+
+.card h4 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 30px;
+  margin-top: 0;
+  margin-bottom: 5%;
+  
+}
+.text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 2vw;
+}
+.location{
+  margin-top: 2vh;
+}
+.location span{
+  margin-left: 3px;
+  color: #2B283A
+}
+.location a{
+  color: grey;
+  margin-left: 10px;
+}
+.text p{
+  max-width: 50vw;
+}
